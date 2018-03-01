@@ -1,0 +1,14 @@
+/*webkit-sassui-vim-center Start*/
+.webkit-sassui-vim-center{
+  & > *,
+  &:after{
+      display: inline-block;
+      vertical-align: middle;
+  }
+  &:after{
+    content: '\200B';
+    height: 100%;
+    font-size: 0;
+  }
+}
+/*webkit-sassui-vim-center End*/

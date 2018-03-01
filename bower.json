@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-vim-center",
+  "description": "Vertical align center for webkit sass ui",
+  "main": [
+    "dist/webkit-sassui-vim-center.css",
+    "dist/webkit-sassui-vim-center.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "vim-center"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
