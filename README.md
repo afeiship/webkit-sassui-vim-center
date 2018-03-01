@@ -9,6 +9,5 @@
 </div>
 ```
 
-
-## resources:
-+ https://github.com/afeiship/generator-webkit-sassui
+## demo:
++ https://afeiship.github.io/webkit-sassui-vim-center/
