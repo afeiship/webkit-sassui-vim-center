@@ -11,4 +11,10 @@
     font-size: 0;
   }
 }
+
+.webkit-sassui-vim-center_{
+  >*{
+    @extend .webkit-sassui-vim-center;
+  }
+}
 /*webkit-sassui-vim-center End*/
