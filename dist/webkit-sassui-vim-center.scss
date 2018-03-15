@@ -12,9 +12,15 @@
   }
 }
 
-.webkit-sassui-vim-center_{
+.webkit-sassui-vim-center_,
+.webkit-sassui-vim-center__ {
   >*{
     @extend .webkit-sassui-vim-center;
   }
 }
-/*webkit-sassui-vim-center End*/
+
+.webkit-sassui-vim-center__{
+  @extend .webkit-sassui-vim-center;
+}
+
+/* webkit-sassui-vim-center End*/
