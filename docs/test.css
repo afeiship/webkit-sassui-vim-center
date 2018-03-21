@@ -1,17 +1,40 @@
 /*webkit-sassui-vim-center Start*/
-.webkit-sassui-vim-center > *, .webkit-sassui-vim-center:after {
+.webkit-sassui-vim-center > *, .webkit-sassui-vim-center_ > * > *,
+.webkit-sassui-vim-center__ > * > *, .webkit-sassui-vim-center__ > *, .webkit-sassui-vim-center:after, .webkit-sassui-vim-center_ > :after,
+.webkit-sassui-vim-center__ > :after, .webkit-sassui-vim-center__:after {
   display: inline-block;
   vertical-align: middle;
 }
 
-.webkit-sassui-vim-center:after {
+.webkit-sassui-vim-center:after, .webkit-sassui-vim-center_ > :after,
+.webkit-sassui-vim-center__ > :after, .webkit-sassui-vim-center__:after {
   content: '\200B';
   height: 100%;
   font-size: 0;
 }
 
-/*webkit-sassui-vim-center End*/
+/* webkit-sassui-vim-center End*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+.wrapper {
+  width: 320px;
+  margin: 20px auto;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.tc {
+  text-align: center;
+}
+
 .test-webkit-sassui-vim-center {
-  height: 400px;
+  height: 200px;
   border: 1px solid salmon;
 }
