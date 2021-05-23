@@ -1,0 +1,26 @@
+/*wsui-vim-center Start*/
+.wsui-vim-center {
+  & > *,
+  &:after {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &:after {
+    content: "\200B";
+    height: 100%;
+    font-size: 0;
+  }
+}
+
+.wsui-vim-center_,
+.wsui-vim-center__ {
+  > * {
+    @extend .wsui-vim-center;
+  }
+}
+
+.wsui-vim-center__ {
+  @extend .wsui-vim-center;
+}
+
+/*wsui-vim-center End*/
