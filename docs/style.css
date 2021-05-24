@@ -1,12 +1,10 @@
 /*wsui-vim-center Start*/
-.wsui-vim-center > *, .wsui-vim-center_ > * > *, .wsui-vim-center__ > * > *, .wsui-vim-center__ > *, .wsui-vim-center:after, .wsui-vim-center_ > :after,
-.wsui-vim-center__ > :after, .wsui-vim-center__:after {
+.wsui-vim-center > *, .wsui-vim-center:after {
   display: inline-block;
   vertical-align: middle;
 }
 
-.wsui-vim-center:after, .wsui-vim-center_ > :after,
-.wsui-vim-center__ > :after, .wsui-vim-center__:after {
+.wsui-vim-center:after {
   content: "\200B";
   height: 100%;
   font-size: 0;

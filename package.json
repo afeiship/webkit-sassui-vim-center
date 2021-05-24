@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-vim-center",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vertical align center for webkit sass ui.",
   "homepage": "https://github.com/afeiship/wsui-vim-center",
   "author": {
